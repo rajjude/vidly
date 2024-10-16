@@ -1,0 +1,23 @@
+const express = require('express')
+const error = require('../middleware/error')
+const auth = require('../routes/auth')
+const users = require('../routes/users')
+const movies = require('../routes/movies')
+const customers = require('../routes/customers')
+const rentals = require('../routes/rentals')
+const genres = require('../routes/genres')
+const home = require('../routes/home')
+const returns = require('../routes/returns')
+
+module.exports = function (app) {
+    app.use(express.json())
+    app.use('/', home)
+    app.use('/genres', genres)
+    app.use('/customers', customers)
+    app.use('/movies', movies)
+    app.use('/rentals', rentals)
+    app.use('/users', users)
+    app.use('/auth', auth)
+    app.use('/returns', returns)
+    app.use(error)
+}

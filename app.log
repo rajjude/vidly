@@ -10153,3 +10153,1366 @@
   level: '\x1B[31merror\x1B[39m',
   timestamp: '2024-10-17T07:37:00.870Z'
 }
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:01:13.014Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:31:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7234,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 93224960,
+      heapTotal: 58605568,
+      heapUsed: 29137056,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 2.3916015625, 2.35693359375, 2.326171875 ],
+    uptime: 17949
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:01:13.018Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:01:27.500Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:31:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7272,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 94486528,
+      heapTotal: 58867712,
+      heapUsed: 29229528,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 2.31005859375, 2.3388671875, 2.3203125 ],
+    uptime: 17963
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:01:27.504Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:02:15.457Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:32:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7332,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 92848128,
+      heapTotal: 58867712,
+      heapUsed: 29193840,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: { loadavg: [ 1.9580078125, 2.2421875, 2.28515625 ], uptime: 18011 },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:02:15.460Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:04:00.690Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:34:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7389,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 93978624,
+      heapTotal: 58605568,
+      heapUsed: 29269400,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 1.53857421875, 2.00927734375, 2.18701171875 ],
+    uptime: 18116
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:04:00.695Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:07:51.263Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:37:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7462,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 93061120,
+      heapTotal: 58867712,
+      heapUsed: 29247688,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 2.0595703125, 1.9189453125, 2.08642578125 ],
+    uptime: 18347
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:07:51.267Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:09:16.762Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:39:16 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7529,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 92815360,
+      heapTotal: 58867712,
+      heapUsed: 29187168,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 1.63525390625, 1.794921875, 2.01904296875 ],
+    uptime: 18432
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:09:16.766Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:09:41.692Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:39:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7564,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 94208000,
+      heapTotal: 58867712,
+      heapUsed: 29095456,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 1.86083984375, 1.84033203125, 2.0283203125 ],
+    uptime: 18457
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:09:41.696Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:10:13.800Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:40:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7599,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 94158848,
+      heapTotal: 59129856,
+      heapUsed: 29161736,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: {
+    loadavg: [ 1.93408203125, 1.85498046875, 2.025390625 ],
+    uptime: 18489
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:10:13.804Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:17:19.316Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:17:55.109Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:18:21.737Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:10:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:10:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:10:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 14:48:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7823,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 93143040,
+      heapTotal: 58867712,
+      heapUsed: 29361120,
+      external: 20515651,
+      arrayBuffers: 18262883
+    }
+  },
+  os: {
+    loadavg: [ 1.31201171875, 1.54931640625, 1.80615234375 ],
+    uptime: 18977
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T09:18:21.741Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T09:18:28.711Z'
+}

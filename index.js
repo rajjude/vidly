@@ -2,7 +2,8 @@ require('express-async-errors')
 
 const express = require('express')
 const app = express()
-
+require('dotenv').config()
+// console.log(process.env.vidly_jwtPrivateKey)
 require('./startup/routes')(app)
 require('./startup/dbconnnection')()
 require('./startup/errorHandling')()
@@ -11,8 +12,4 @@ require('./startup/validation')()
 require('./startup/prod')(app)
 require('./startup/server')(app)
 require('./startup/viewEngine')(app)
-require('dotenv').config()
-
-console.log(process.env.vidly_db)
-
 module.exports = app

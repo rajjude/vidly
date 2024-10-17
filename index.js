@@ -11,5 +11,8 @@ require('./startup/validation')()
 require('./startup/prod')(app)
 require('./startup/server')(app)
 require('./startup/viewEngine')(app)
+require('dotenv').config()
+
+console.log(process.env.vidly_db)
 
 module.exports = app

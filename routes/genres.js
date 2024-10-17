@@ -3,7 +3,6 @@ const auth = require('../middleware/auth')
 const admin = require('../middleware/admin')
 const express = require('express')
 const router = express.Router()
-const mongoose = require('mongoose')
 const { Genre, validate } = require('../models/genre')
 
 router.get('/', async (req, res) => {

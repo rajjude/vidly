@@ -3,13 +3,14 @@ require('winston-mongodb')
 
 module.exports = function () {
     const logger = winston.createLogger({
-        level: 'error',
+        level: 'info',
         format: winston.format.combine(
             winston.format.timestamp(),
             winston.format.json(),
             winston.format.colorize(),
             winston.format.simple(),
-            winston.format.prettyPrint()
+            winston.format.prettyPrint(),
+            winston.format.errors({ stack: true })
         ),
         transports: [
             new winston.transports.MongoDB({ db: 'mongodb://localhost/vidly' }),

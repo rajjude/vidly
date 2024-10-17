@@ -9109,3 +9109,886 @@
   level: '\x1B[31merror\x1B[39m',
   timestamp: '2024-10-16T14:47:29.220Z'
 }
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:20:27.222Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:8:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:8:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 09:50:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1551,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js'
+    ],
+    memoryUsage: {
+      rss: 92569600,
+      heapTotal: 58867712,
+      heapUsed: 29229184,
+      external: 20491388,
+      arrayBuffers: 18262707
+    }
+  },
+  os: { loadavg: [ 1.91455078125, 2.20947265625, 2.75 ], uptime: 1103 },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T04:20:27.226Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:29:26.818Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:30:37.325Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:36:37.180Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:37:07.644Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:37:11.685Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:37:18.432Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:38:15.708Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:41:58.060Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:41:59.421Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:44:11.629Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:44:35.286Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:46:44.785Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:46:55.869Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:47:44.848Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:48:04.735Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:48:37.253Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:50:01.490Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:50:29.238Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:52:31.730Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:58:37.842Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T04:59:47.293Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T05:01:50.344Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T05:33:59.911Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T05:34:59.562Z'
+}
+{
+  error: Error: FATAL ERROR  : jwtPrivateKey in not defined
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+      at Module.load (node:internal/modules/cjs/loader:1317:32)
+      at Module._load (node:internal/modules/cjs/loader:1127:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+      at node:internal/main/run_main_module:30:49,
+  level: '\x1B[31merror\x1B[39m',
+  message: 'uncaughtException: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  stack: 'Error: FATAL ERROR  : jwtPrivateKey in not defined\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js:4:15)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:9:28)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1317:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1127:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)\n' +
+    '    at node:internal/main/run_main_module:30:49',
+  exception: true,
+  date: 'Thu Oct 17 2024 11:04:59 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3376,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 92930048,
+      heapTotal: 58867712,
+      heapUsed: 29566744,
+      external: 20515652,
+      arrayBuffers: 18262884
+    }
+  },
+  os: { loadavg: [ 1.55859375, 2.109375, 2.26806640625 ], uptime: 5575 },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/config.js',
+      function: 'module.exports',
+      line: 4,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1317,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1127,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 217,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 166,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T05:34:59.566Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T05:36:40.025Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T05:36:52.951Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T06:04:28.830Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T06:04:58.509Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T06:18:22.183Z'
+}
+{
+  error: MongoAPIError: URI must include hostname, domain name, and tld
+      at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)
+      at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)
+      at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)
+      at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)
+      at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)
+      at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: URI must include hostname, domain name, and tld\n' +
+    'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  stack: 'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  rejection: true,
+  date: 'Thu Oct 17 2024 11:48:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4457,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 93339648,
+      heapTotal: 59129856,
+      heapUsed: 29982808,
+      external: 20534155,
+      arrayBuffers: 18262923
+    }
+  },
+  os: {
+    loadavg: [ 2.5244140625, 2.0537109375, 2.04345703125 ],
+    uptime: 8178
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js',
+      function: 'resolveSRVRecord',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient._connect',
+      line: 182,
+      method: '_connect',
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient.connect',
+      line: 146,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js',
+      function: 'NativeConnection.createClient',
+      line: 320,
+      method: 'createClient',
+      native: false
+    },
+    {
+      column: 34,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js',
+      function: 'NativeConnection.openUri',
+      line: 835,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js',
+      function: 'Mongoose.connect',
+      line: 447,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T06:18:22.202Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T06:18:31.500Z'
+}
+{
+  error: MongoAPIError: URI must include hostname, domain name, and tld
+      at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)
+      at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)
+      at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)
+      at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)
+      at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)
+      at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: URI must include hostname, domain name, and tld\n' +
+    'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  stack: 'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  rejection: true,
+  date: 'Thu Oct 17 2024 11:48:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4467,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 93241344,
+      heapTotal: 58867712,
+      heapUsed: 30050896,
+      external: 20534155,
+      arrayBuffers: 18262923
+    }
+  },
+  os: { loadavg: [ 2.32177734375, 2.01953125, 2.03125 ], uptime: 8187 },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js',
+      function: 'resolveSRVRecord',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient._connect',
+      line: 182,
+      method: '_connect',
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient.connect',
+      line: 146,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js',
+      function: 'NativeConnection.createClient',
+      line: 320,
+      method: 'createClient',
+      native: false
+    },
+    {
+      column: 34,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js',
+      function: 'NativeConnection.openUri',
+      line: 835,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js',
+      function: 'Mongoose.connect',
+      line: 447,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T06:18:31.512Z'
+}
+{
+  error: MongoAPIError: URI must include hostname, domain name, and tld
+      at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)
+      at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)
+      at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)
+      at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)
+      at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)
+      at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)
+      at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)
+      at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)
+      at Module._compile (node:internal/modules/cjs/loader:1546:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1691:10) {
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: '\x1B[31merror\x1B[39m',
+  message: 'unhandledRejection: URI must include hostname, domain name, and tld\n' +
+    'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  stack: 'MongoAPIError: URI must include hostname, domain name, and tld\n' +
+    '    at resolveSRVRecord (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js:39:15)\n' +
+    '    at MongoClient._connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:182:74)\n' +
+    '    at MongoClient.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js:146:40)\n' +
+    '    at NativeConnection.createClient (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:320:16)\n' +
+    '    at NativeConnection.openUri (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js:835:34)\n' +
+    '    at Mongoose.connect (/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js:447:15)\n' +
+    '    at module.exports (/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js:6:14)\n' +
+    '    at Object.<anonymous> (/Users/dongararajendrakumar/Documents/node-course/vidly/index.js:7:35)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)',
+  rejection: true,
+  date: 'Thu Oct 17 2024 11:48:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4467,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/dongararajendrakumar/Documents/node-course/vidly',
+    execPath: '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+    version: 'v22.9.0',
+    argv: [
+      '/opt/homebrew/Cellar/node/22.9.0/bin/node',
+      '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      'index.js'
+    ],
+    memoryUsage: {
+      rss: 93241344,
+      heapTotal: 58867712,
+      heapUsed: 30050896,
+      external: 20534155,
+      arrayBuffers: 18262923
+    }
+  },
+  os: { loadavg: [ 2.32177734375, 2.01953125, 2.03125 ], uptime: 8187 },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/connection_string.js',
+      function: 'resolveSRVRecord',
+      line: 39,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient._connect',
+      line: 182,
+      method: '_connect',
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongodb/lib/mongo_client.js',
+      function: 'MongoClient.connect',
+      line: 146,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js',
+      function: 'NativeConnection.createClient',
+      line: 320,
+      method: 'createClient',
+      native: false
+    },
+    {
+      column: 34,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/connection.js',
+      function: 'NativeConnection.openUri',
+      line: 835,
+      method: 'openUri',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/node_modules/mongoose/lib/mongoose.js',
+      function: 'Mongoose.connect',
+      line: 447,
+      method: 'connect',
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/startup/dbconnnection.js',
+      function: 'module.exports',
+      line: 6,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 35,
+      file: '/Users/dongararajendrakumar/Documents/node-course/vidly/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1546,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1691,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-10-17T06:18:31.512Z'
+}
+{
+  message: 'This is an info message',
+  level: '\x1B[31merror\x1B[39m',
+  timestamp: '2024-10-17T06:21:10.209Z'
+}
